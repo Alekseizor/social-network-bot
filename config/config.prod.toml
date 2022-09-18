@@ -1,0 +1,23 @@
+# НАСТРОЙКИ API Битопа
+[BITOP]
+SiteAdress = "api.bistg.bmstu.ru"
+Protocol = "https"
+PathPath = "/schedule/"
+PathSearch = "/search/unit"
+
+# НАСТРОЙКИ РЕДИСКИ
+[Redis]
+# Таймауты в миллисекундах
+DialTimeout = 100
+ReadTimeout = 100
+
+# Уровень логирования: FATAL, ERROR, WARN, INFO, DEBUG
+LogLevel = "DEBUG"
+
+# Логирование запросов
+LogDB = true
+
+# Настройка Бота
+[Bot]
+GroupID = "172748106"
+ChatID  = 2000000005
